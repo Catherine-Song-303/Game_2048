@@ -113,7 +113,7 @@ def compress(mat):
 def merge(mat):
     changed = False
     for i in range(4):
-        for j in range(4):
+        for j in range(3):
             # two cells have the same value, but they're not empty
             if mat[i][j] != 0 and mat[i][j] == mat[i][j + 1]:
                 # merge cells
