@@ -37,7 +37,7 @@ def add_new_2(mat):
 
     for row in mat:
         for val in row:
-            print(val, end=" ")
+            print(val, end="  ")
         print()
 
     return mat
